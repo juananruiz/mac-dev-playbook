@@ -17,15 +17,14 @@ dotfiles_files:
   - .vimrc
 
 homebrew_installed_packages:
-  # - ansible # Installed via Pip.
   - autoconf
   - bash-completion
   - chromedriver
-  - doxygen
+  # - doxygen
   - gettext
   - gifsicle
   - git
-  - go
+  # - go
   - gpg
   - hub
   - httpie
@@ -37,7 +36,7 @@ homebrew_installed_packages:
   - npm
   - nvm
   - ssh-copy-id
-  - cowsay
+  # - cowsay
   - readline
   - openssl
   - pv
@@ -54,20 +53,20 @@ homebrew_taps:
 
 homebrew_cask_appdir: /Applications
 homebrew_cask_apps:
-  - docker
+  # - docker
   - dropbox
   # - fing # Download link keeps getting changed, d'oh!
   - firefox
   - google-chrome
   - handbrake
   - licecap
-  - limechat
+  # - limechat
   - macvim
   - nvalt
   - sequel-pro
   - skitch
   - slack
-  - sublime-text
+  # - sublime-text
   - transmit
   - vagrant
   - virtualbox
