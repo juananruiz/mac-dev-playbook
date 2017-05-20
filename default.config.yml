@@ -55,21 +55,26 @@ homebrew_cask_appdir: /Applications
 homebrew_cask_apps:
   # - docker
   - dropbox
+  - evernote
   # - fing # Download link keeps getting changed, d'oh!
   - firefox
   - google-chrome
   - handbrake
+  - jumpcut
   - licecap
   # - limechat
   - macvim
   - nvalt
+  - phpstorm
   - sequel-pro
   - skitch
   - slack
   # - sublime-text
+  - transmission
   - transmit
   - vagrant
   - virtualbox
+  - vlc
 
 # See `geerlingguy.mas` role documentation for usage instructions.
 mas_installed_apps: []
