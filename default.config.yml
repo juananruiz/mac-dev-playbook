@@ -59,6 +59,7 @@ homebrew_cask_apps:
   # - fing # Download link keeps getting changed, d'oh!
   - firefox
   - google-chrome
+  - google-drive
   - handbrake
   - jumpcut
   - licecap
@@ -70,6 +71,7 @@ homebrew_cask_apps:
   - skitch
   - slack
   # - sublime-text
+  - toggldesktop
   - transmission
   - transmit
   - vagrant

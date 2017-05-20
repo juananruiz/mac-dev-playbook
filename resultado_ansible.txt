@@ -199,4 +199,3 @@ ok: [127.0.0.1]
 PLAY RECAP ***************************************************************************************************************
 127.0.0.1                  : ok=26   changed=10   unreachable=0    failed=0   
 
-MacBook-Air-de-Juanan:mac-dev-playbook juananruiz$ 
