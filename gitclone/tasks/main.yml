@@ -1,0 +1,9 @@
+- hosts: localhost
+  vars_files:
+  - vars/services.yml
+
+  tasks:
+  - name: clone the code
+    git: repo=git@github.com:{ item.repo_owner }}/{ item.repo_name }}.git depth=1 dest=../code/{ item.repo_name }}
+    with_items:
+    - "{ services }}" 
