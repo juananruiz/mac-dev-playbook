@@ -73,7 +73,7 @@ homebrew_cask_apps:
   # - sublime-text
   - toggldesktop
   - transmission
-  - transmit
+  # - transmit
   - vagrant
   - virtualbox
   - vlc
