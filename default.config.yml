@@ -55,6 +55,7 @@ homebrew_cask_appdir: /Applications
 homebrew_cask_apps:
   # - docker
   - dropbox
+  - duet
   - evernote
   # - fing # Download link keeps getting changed, d'oh!
   - firefox
@@ -67,9 +68,11 @@ homebrew_cask_apps:
   - macvim
   - nvalt
   - phpstorm
+  - pixelmator
   - sequel-pro
   - skitch
-  - slack
+  # - slack
+  - spotify
   # - sublime-text
   - toggldesktop
   - transmission
