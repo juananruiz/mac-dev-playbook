@@ -1,0 +1,4 @@
+---
+- name: Copia esquemas de colores para vim
+  copy: src=vim/colors/ dest=~/.vim/colors/
+

@@ -27,3 +27,6 @@
 
     - include: tasks/osx.yml
       when: configure_osx
+
+    - include: tasks/vim.yml
+      when: configure_vim

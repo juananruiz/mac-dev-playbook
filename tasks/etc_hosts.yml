@@ -1,0 +1,17 @@
+---
+- name: insert/update hosts list in /etc/host
+  blockinfile:
+    dest: /etc/hosts
+    block: |
+      {{item.name}} {{item.ip}}
+    marker: "# {mark} ANSIBLE MANAGED BLOCK {{item.name}}"
+    with_items:
+      - { name: cultus.u14.dev, ip: 192.168.14.14 }
+      - { name: docentes.u14.dev, ip: 192.168.14.14 }
+      - { name: icasus3.u14.dev, ip: 192.168.14.14 }
+      - { name: recursoshumanos.u14.dev, ip: 192.168.14.14 }
+      - { name: cultus.u16.dev, ip: 192.168.16.16 }
+      - { name: docentes.u16.dev, ip: 192.168.16.16 }
+      - { name: icasus3.u16.dev, ip:  192.168.16.16}
+      - { name: recursoshumanos.u16.dev, ip: 192.168.16.16 }
+

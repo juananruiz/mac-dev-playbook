@@ -4,10 +4,11 @@ downloads: ~/.ansible-downloads/
 configure_sudoers: yes
 configure_terminal: yes
 configure_osx: yes
+configure_vim: yes
 
 dotfiles_repo: https://github.com/geerlingguy/dotfiles.git
 dotfiles_repo_accept_hostkey: yes
-dotfiles_repo_local_destination: ~/Dropbox/Development/GitHub/dotfiles
+dotfiles_repo_local_destination: ~/Dropbox/dotfiles
 dotfiles_files:
   - .bash_profile
   - .gitconfig
@@ -24,22 +25,22 @@ homebrew_installed_packages:
   - gettext
   - gifsicle
   - git
-  # - go
   - gpg
-  - hub
   - httpie
+  - hub
   - iperf
   - libevent
   - sqlite
+  - mas
   - mcrypt
   - nmap
   - npm
   - nvm
-  - ssh-copy-id
-  # - cowsay
-  - readline
   - openssl
   - pv
+  - readline
+  - ssh-copy-id
+  - tree
   - wget
   - wrk
 
@@ -57,14 +58,12 @@ homebrew_cask_apps:
   - dropbox
   - duet
   - evernote
-  # - fing # Download link keeps getting changed, d'oh!
   - firefox
   - google-chrome
   - google-drive
   - handbrake
   - jumpcut
   - licecap
-  # - limechat
   - macvim
   - nvalt
   - phpstorm
@@ -74,15 +73,18 @@ homebrew_cask_apps:
   # - slack
   - spotify
   # - sublime-text
+  - telegram
   - toggldesktop
   - transmission
-  # - transmit
   - vagrant
   - virtualbox
   - vlc
 
 # See `geerlingguy.mas` role documentation for usage instructions.
-mas_installed_apps: []
+mas_installed_apps: 
+  - { id: 441258766, name="Magnet" }
+  - { id: 407963104, name="Pixelmator" }
+  - { id: 405580712, name="StuffIt Expander" }
 mas_email: ""
 mas_password: ""
 
